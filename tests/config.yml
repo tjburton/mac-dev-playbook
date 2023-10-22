@@ -2,15 +2,49 @@
 homebrew_installed_packages:
   - autoconf
   - bash-completion
+  - doxygen
   - gettext
+  - gifsicle
+  - git
+  - gh
+  - go
+  - gpg
+  - httpie
+  - iperf
+  - libevent
   - sqlite
+  - mcrypt
+  - nmap
+  - node
+  - nvm
+  - php
   - ssh-copy-id
   - cowsay
   - readline
+  - openssl
   - pv
   - wget
   - wrk
+  - zsh-history-substring-search
 
 homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - dropbox
   - firefox
-  - licecap
+  - google-chrome
+  - orion
+  - iterm2
+  - figma
+  - daisydisk
+  - slack
+  - visual-studio-code
+  - blender
+  - affinity-designer
+  - affinity-photo
+  - affinity-publisher
+  - keka
+  - logi-options-plus
+  - notion
+  - postman
+  - transmit

@@ -83,10 +83,10 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
-mas_email: ""
-mas_password: ""
+mas_email: ''
+mas_password: ''
 
-osx_script: "~/.osx --no-restart"
+osx_script: '~/.osx --no-restart'
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
@@ -111,20 +111,20 @@ pip_packages: []
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
 sublime_base_path: '~/Library/Application Support/Sublime Text'
-sublime_config_path: "Packages/User"
+sublime_config_path: 'Packages/User'
 sublime_package_control:
-  - "DocBlockr"
-  - "Dockerfile Syntax Highlighting"
-  - "FileDiffs"
-  - "GitHub Flavored Markdown Preview"
-  - "Jinja2"
-  - "Package Control"
-  - "PHP-Twig"
-  - "Pretty JSON"
-  - "SublimeLinter"
-  - "SublimeLinter-contrib-yamllint"
-  - "TrailingSpaces"
-  - "WordCount"
+  - 'DocBlockr'
+  - 'Dockerfile Syntax Highlighting'
+  - 'FileDiffs'
+  - 'GitHub Flavored Markdown Preview'
+  - 'Jinja2'
+  - 'Package Control'
+  - 'PHP-Twig'
+  - 'Pretty JSON'
+  - 'SublimeLinter'
+  - 'SublimeLinter-contrib-yamllint'
+  - 'TrailingSpaces'
+  - 'WordCount'
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
